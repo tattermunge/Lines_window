@@ -1,0 +1,14 @@
+﻿  GUI.cpp
+  Lines_window.cpp
+c:\users\simon\source\repos\lib_files\graph.h(103): warning C4018: '<': signed/unsigned mismatch
+  c:\users\simon\source\repos\lib_files\graph.h(103): note: while compiling class template member function 'Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)'
+  c:\users\simon\source\repos\lib_files\lines_window.cpp(27): note: see reference to function template instantiation 'Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)' being compiled
+  c:\users\simon\source\repos\lib_files\gui.h(95): note: see reference to class template instantiation 'Graph_lib::Vector_ref<Graph_lib::Button>' being compiled
+  C16_main.cpp
+c:\users\simon\source\repos\lib_files\graph.h(103): warning C4018: '<': signed/unsigned mismatch
+  c:\users\simon\source\repos\lib_files\graph.h(103): note: while compiling class template member function 'Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)'
+  c:\users\simon\source\repos\c16_drill\c16_drill\c16_main.cpp(17): note: see reference to function template instantiation 'Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)' being compiled
+  c:\users\simon\source\repos\lib_files\gui.h(95): note: see reference to class template instantiation 'Graph_lib::Vector_ref<Graph_lib::Button>' being compiled
+  Generating Code...
+Lines_window.obj : error LNK2019: unresolved external symbol "public: __thiscall Graph_lib::Menu::Menu(struct Graph_lib::Point,int,int,enum Graph_lib::Menu::Kind,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Menu@Graph_lib@@QAE@UPoint@1@HHW4Kind@01@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: __thiscall Graph_lib::Lines_window::Lines_window(struct Graph_lib::Point,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Lines_window@Graph_lib@@QAE@UPoint@1@HHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+C:\Users\Simon\source\repos\C16_Drill\Debug\C16_Drill.exe : fatal error LNK1120: 1 unresolved externals
